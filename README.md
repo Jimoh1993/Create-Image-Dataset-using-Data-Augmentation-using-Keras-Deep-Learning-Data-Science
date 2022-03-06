@@ -1,5 +1,6 @@
 # Create-Image-Dataset-using-Data-Augmentation-using-Keras-Deep-Learning-Data-Science
-# Data pre-processing and data augmentation
+## Project Status: In Progress
+## Data pre-processing and data augmentation implementation
 In order to make the most of our few training examples, we will "augment" them via a number of random transformations, so that our model would never see twice the exact same picture. This helps prevent overfitting and helps the model generalize better.
 
 In Keras this can be done via the keras.preprocessing.image.ImageDataGenerator class. This class allows you to:
